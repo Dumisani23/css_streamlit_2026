@@ -38,7 +38,7 @@ if menu == "Researcher Profile":
     st.sidebar.header("Profile Options")
 
     # Collect basic information
-    name = "Mr. Dumisani Zambukere"
+    name = "Mr. Dumisani Lideck Zambukere"
     field = "Chemical Engineering"
     institution = "University of the Witwatersrand"
 
@@ -132,4 +132,5 @@ elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
     email = "dlzambu@gmail.com"
+
     st.write(f"You can reach me at {email}.")
